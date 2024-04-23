@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Car sales</title>
+    <!--Link To Css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo"><img src="./img/logo.png" alt=""><span>
+                </span></a>
+            <ul class="navbar">
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#parts">Parts</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="./addCar.html">Add </a></li>
+            </ul>
+            <div class="dropdown">
+                <i class='bx bx-search' id="search-icon" onclick="myFunction()">
+                    <div id="myDropdown" class="dropdown-content">
+                        <input type="text" name="" id="" placeholder="model">
+                        <input type="text" name="" id="" placeholder="location">
+                        <!-- <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a> -->
+                      </div>
+                </i>
+            </div>
+            
+            
+
+            <div class="registerButton">
+                <button style="border-radius: 11px;"><a href="./login.html">Register</a></button>
+            </div>
+        </div>
+    </header>
+    
+   
+    <!--Home section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Drive into your dream world with our <br>  <span>car</span> sale app
+            </h1>
+            <p>Discover the perfect ride effortlessly with our intuitive car sale app, <br> connecting you to a 
+                diverse range of vehicles tailored to your preferences.</p>
+            <!--home Button-->
+            <a href="#" class="btn">Discover Now</a>
+        </div>
+
+    </section>
+    <!--cars section-->
+    <section class="cars" id="cars">
+        <div class="heading">
+            <span>All Cars</span>
+            <h2>Our types of car</h2>
+            <p>From sleek sedans to rugged SUVs, we've got wheels for every journey in our diverse car collection.
+            </p>
+        </div>
+        <!-- Cars container -->
+<div class="cars-container container">
+    <!-- Box 1 -->
+    <div class="box">
+        <img src="/img/car1.jpg" alt="">
+        <h2>Suzuki</h2>
+        <h3>Sydney</h3>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box">
+        <img src="/img/car2.jpg" alt="">
+        <h2>Land Range Rover</h2>
+        <h3>Melbourne</h3>
+      
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box">
+        <img src="/img/car3.jpg" alt="">
+        <h2>Tesla</h2>
+        <h3>Canberra</h3>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="box">
+        <img src="/img/car4.jpg" alt="">
+        <h2>Fortune</h2>
+        <h3>Perth</h3>
+    </div>
+
+    <!-- Box 5
+    <div class="box">
+        <img src="/img/car7.jpeg" alt="">
+        <h2>Swift</h2>
+        <h3>Hobart</h3>
+    </div> -->
+
+
+
+
+    </section>
+
+    <!--About-->
+    <section>
+        <section class="about container" id="about">
+           
+            <div class="about-text">
+                <span></span>
+                <h2 style="color: var(--main-color);">About Us</h2>
+                <p>At Auto Point, we're not just another car care service – we're your partners in maintaining and enhancing the
+                    performance of your vehicle. Conveniently located in the heart of Sydney, Australia, our dedicated team is
+                    committed to delivering top-notch service tailored to your needs
+                    </p>
+                    <h2>Meet Our Team</h2>
+
+                    <div class="staff">
+                        <div class="staff-member">
+                            <img src="./img/employee1.jpg" alt="John Smith">
+                            <h3>John Smith</h3>
+                            <p>Founder & CEO</p>
+                            <p>With over two decades of experience in the automotive industry, John is the driving force behind Auto
+                                Point's commitment to excellence. His vision and dedication have shaped Auto Point into the premier
+                                car care destination it is today.</p>
+                        </div>
+                        <div class="staff-member">
+                            <img src="./img/employee2.jpg" alt="Emily Jones">
+                            <h3>Emily Jones</h3>
+                            <p>Customer Service Manager</p>
+                            <p>Emily's friendly demeanor and extensive knowledge make her the go-to person for all your inquiries
+                                and concerns. Whether you need assistance scheduling an appointment or require advice on maintenance
+                                procedures, Emily is here to help.</p>
+                        </div>
+                        
+                    </div>
+            <div class="contactSection">
+                <h2>Contact Us</h2>
+                <div style=" text-align: center;">
+                    <p><strong>Location:</strong> 123 Main Street, Sydney, NSW 2000, Australia</p>
+                    <p><strong>Telephone:</strong> +61 2 1234 5678</p>
+                    <p><strong>Email:</strong> info@autopoint.com.au</p>
+                </div>
+            
+                
+        
+            </div>
+                    
+                  
+            </div>
+        </section>
+    </section>
+    <!--parts section-->
+    <section class="parts" id="parts">
+        <div class="heading">
+            <span>Our Comprehensive Range of Car Parts</span>
+            <h2>Quality Guaranteed: Genuine OEM and Aftermarket Options</h2>
+            <p>Expert Advice and Support: Our Team Ensures the Perfect Fit for Your Vehicle,
+                 Backed by Years of Experience and In-Depth Product Knowledge.
+                </p>
+        </div>
+        <!--parts container-->
+        <div class="parts-container container">
+            <!--Box 1-->
+
+            <div class="box">
+                <img src="/img/part1.png" alt="">
+                <h3>Auto  Parts</h3>
+                <span>$90.99</span>
+                <a href="#" class="btn">Buy Now</a>
+            
+            </div>
+
+               <!--Box 2-->
+
+               <div class="box">
+                <img src="/img/part2.png" alt="">
+                <h3>Auto  Parts</h3>
+                <span>$100.99</span>
+                <a href="#" class="btn">Buy Now</a>
+           
+            </div>
+
+              
+        </div>
+    </section>
+    <!--Blog Container-->
+    <section class="blog" id="blog">
+        <div class="heading">
+            <span>Blog</span>
+            <p>
+                The Future of Electric Vehicles: Advancements, Challenges, and What Lies Ahead
+                Exploring the latest breakthroughs in electric vehicle technology, sustainability initiatives, and the evolving infrastructure supporting the widespread adoption.
+                
+            </p>
+        </div>
+        <!--Blog Container-->
+        <div class="blog-container container">
+            <!--Box 1-->
+            <div class="box">
+                <img src="/img/car1.jpg" alt="">
+                <span>August 21 2022</span>
+                <h3> Navigating the Electric Highway: The Future of Electric Vehicles
+                </h3>
+                <p>In recent years, the automotive industry has witnessed a significant shift towards electric vehicles (EVs), marking a pivotal moment in the evolution of transportation. As concerns about climate change and environmental sustainability continue to grow, the demand for cleaner and greener alternatives to traditional gasoline-powered cars has never been stronger.
+                     In this blog, we'll explore the exciting advancements, challenges.
+                    </p>
+                <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i> </a>
+            </div>
+
+             <!--Box 2-->
+             <div class="box">
+                <img src="/img/car8.jpg" alt="">
+                <span>April 21 2024</span>
+                <h3> Navigating the World of Cheap Cars</h3>
+                <p>In a world where the cost of living continues to rise, finding affordable transportation is a priority for many individuals and families. Whether you're a first-time car buyer, a college student on a tight budget, or simply looking to save money on your next vehicle purchase, the market for cheap cars offers a range of options to suit every need and preference. In this blog, we'll explore the ins and outs of buying a cheap car, from the benefits and drawbacks to tips for finding the best deals and maximizing value.
+                    </p>
+                <a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i> </a>
+            </div>
+
+            
+             
+        </div>
+    </section>
+    <!--footer-->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+               
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="#">Home</a>
+                <a href="#">Cars</a>
+                <a href="#">Parts</a>
+                <a href="#">Sales</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Cookies Policy</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Sydney</h3>
+               <p>Melbourne</p>
+               <p>Canberra</p>
+               <p>Perth</p>
+               <p>Hobart</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169;Auto point</p>
+    </div>
+
+    <!--Link To JS-->
+    <script src="./main.js"></script>
+    
+</body>
+</html>
